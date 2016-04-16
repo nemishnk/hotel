@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nemi.vaangasapdalam1">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginactivity"
+            android:label="@string/title_activity_loginactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signupactivity"
+            android:label="@string/title_activity_signupactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".homescreen"
+            android:label="@string/title_activity_homescreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adminpage"
+            android:label="@string/title_activity_adminpage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adminhome"
+            android:label="@string/title_activity_adminhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hotel1"
+            android:label="@string/title_activity_hotel1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".restraunt1"
+            android:label="@string/title_activity_restraunt1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".restraunt2"
+            android:label="@string/title_activity_restraunt2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hotel2"
+            android:label="@string/title_activity_hotel2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hotel3"
+            android:label="@string/title_activity_hotel3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".restraunt3"
+            android:label="@string/title_activity_restraunt3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

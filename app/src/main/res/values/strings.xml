@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">vaanga sapdalam1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="title_activity_loginactivity">loginactivity</string>
+    <string name="title_activity_signupactivity">signupactivity</string>
+    <string name="title_activity_homescreen">homescreen</string>
+    <string name="title_activity_adminpage">adminpage</string>
+    <string name="title_activity_adminhome">adminhome</string>
+    <string name="title_activity_hotel1">hotel1</string>
+    <string name="title_activity_restraunt1">restraunt1</string>
+    <string name="title_activity_restraunt2">restraunt2</string>
+    <string name="title_activity_restraunt3">restraunt3</string>
+    <string name="title_activity_hotel2">hotel2</string>
+    <string name="title_activity_hotel3">hotel3</string>
+</resources>
